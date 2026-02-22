@@ -1,0 +1,7 @@
+{
+  "name": "Platr",
+  "description": "Enterprise-grade Number Plate Recognition system with high-precision vision core.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
