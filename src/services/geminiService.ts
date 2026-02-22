@@ -1,7 +1,7 @@
 import { GoogleGenAI, Type } from "@google/genai";
 import { RecognitionResult } from "../types";
 
-const ai = new GoogleGenAI({ apiKey: process.env.GEMINI_API_KEY || "" });
+const ai = new GoogleGenAI({ apiKey: process.env.NEXT_PUBLIC_GEMINI_API_KEY || "" });
 
 export async function recognizeNumberPlate(base64Image: string, mimeType: string): Promise<RecognitionResult> {
   const model = "gemini-3-flash-preview";
